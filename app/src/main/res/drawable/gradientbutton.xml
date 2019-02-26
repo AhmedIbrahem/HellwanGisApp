@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="45"
+                android:startColor="#6b6721"
+                android:endColor="#b6570e"
+                android:centerColor="#fbe5fc"
+                android:useLevel="@bool/abc_action_bar_embed_tabs"
+                android:gradientRadius="@dimen/abc_action_bar_content_inset_material"
+                android:type="linear" />
+        </shape>
+    </item>
+</selector>

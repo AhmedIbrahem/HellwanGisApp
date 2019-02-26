@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="400dp"
+
+    android:layout_width="350dp"
+    android:id="@+id/popupmap"
+    android:background="@drawable/gradient5"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/poptitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.19"
+        android:textColor="#090909"
+        android:textSize="@dimen/abc_floating_window_z"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Comment"
+        android:id="@+id/textView3"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textStyle="bold|italic"
+        android:theme="@style/Base.Theme.AppCompat.Light.Dialog"
+        android:layout_alignBaseline="@+id/Comment"
+        android:layout_alignBottom="@+id/Comment"
+        android:layout_toRightOf="@+id/Flow"
+        android:layout_toEndOf="@+id/Flow"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Comment"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/abc_dialog_padding_top_material"
+        android:hint="Add your comment here"
+        android:layout_below="@+id/name"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:maxLength="25" />
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/ttt"
+        android:layout_above="@+id/submit"
+        android:layout_centerHorizontal="true"
+        android:maxLength="40"
+        android:textColor="#ec1111" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_above="@+id/close"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right" />
+
+    <Button
+        android:id="@+id/Flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Flow"
+        android:layout_above="@+id/close"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Close"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</LinearLayout>
