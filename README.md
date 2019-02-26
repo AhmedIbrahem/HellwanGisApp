@@ -1,16 +1,4 @@
-<h1>Android Design Support Library Example</h1>
-<p>Hi, this demo covers everything you'll ever encounter while using the Design Support Library</p>
-<ol>
-<li>CoordinatorLayout</li>
-<li>CollapsingToolbarLayout</li>
-<li>AppBarLayout</li>
-<li>Toolbar</li>
-<li>ViewPager</li>
-<li>TabLayout</li>
-<li>FloatingActionButton</li>
-<li>Snackbar</li>
-<li>TextInputLayout</li>
-<li>NavigationView</li>
-</ol>
-
-![testgif](https://cloud.githubusercontent.com/assets/5139030/8405850/287ed8ce-1e75-11e5-89e2-073765e4720a.gif)
+<h1>HellwanGisApp</h1>
+It’s an android application that helps the students , teachers , and workers In Helwan university to ﬁnd their way inside the university. By drawing a Map and allowing the user to enter his position and his destination then The Application will ﬁnd the shortest path between those two points, and will Calculate the distance between those two points or between any other two Points. Also this Application will contain an administration part that allow the University’s management to inform the users if there is any problem Inside the university to leave it, and the Application will ﬁnd the nearest Emergency exit according to the user’s position .and the admin can also Block any path then the Application
+3
+will ﬁnd another path for the users. And this Application will allow the admin to create accounts for the shops and Libraries inside the university then they can change their status between Opened & closed and the users can see the shops and libraries status before going to them
